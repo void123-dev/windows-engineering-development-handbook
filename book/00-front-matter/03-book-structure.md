@@ -5,7 +5,6 @@
 * Windows configuration  
 * WSL2  
 * Docker Desktop  
-* Linux toolchain  
 * AI development environment  
 * Project directory layout
 
@@ -17,14 +16,22 @@
 * Quality Tools  
 * Debugging
 
-## **Part III. Technology Profiles**
+## Part III. Development Toolchains
+
+* Toolchain ownership
+* `mise` installation and activation
+* Configuration hierarchy and trust
+* Tools, environment, and tasks
+* Team use, CI, security, and troubleshooting
+
+## Part IV. Technology Profiles
 
 * WordPress  
 * Laravel  
 * Docker-first  
 * Remote Development
 
-## **Part IV. Engineering Best Practices**
+## Part V. Engineering Practices
 
 * Composer  
 * Git  
@@ -34,7 +41,7 @@
 * Performance  
 * Security
 
-## **Part V. Infrastructure**
+## Part VI. Infrastructure
 
 * NGINX  
 * Redis  
@@ -52,7 +59,7 @@
 
 * EasyEngine
 
-## **Part VI. New Machine Checklist**
+## Part VII. New Machine Checklist
 
 * Complete workstation provisioning checklist
 
@@ -62,4 +69,3 @@
 * Templates  
 * Reference configurations  
 * Useful commands
-
