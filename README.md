@@ -90,6 +90,12 @@ Typical workflow:
 
 The detailed repository migration sequence is in [REFACTORING_PLAN_V1.md](REFACTORING_PLAN_V1.md).
 
+Validate the documentation from the repository root inside WSL:
+
+```bash
+python3 scripts/validate-docs.py
+```
+
 ## Build outputs
 
 The canonical Markdown may be exported to DOCX, PDF, HTML, or EPUB. Generated files must be reproducible and must not become an alternate editable source. The repository currently includes a DOCX build script; v1.0 adds documented and automated validation for all supported targets.
