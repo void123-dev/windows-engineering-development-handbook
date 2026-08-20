@@ -1,4 +1,4 @@
-# Install and activate `mise` in WSL
+# Installation and shell activation
 
 Install `mise` inside WSL, not on the Windows host, when it manages the handbook's Linux developer toolchain. Keep repositories and project configuration in the WSL filesystem unless Windows-native integration requires otherwise.
 

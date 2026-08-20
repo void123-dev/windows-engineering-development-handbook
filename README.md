@@ -28,11 +28,17 @@ book/
 ├── part-02-ide-tools/
 ├── part-03-development-toolchains/
 │   ├── toolchain ownership
-│   └── mise Usage/
-│       ├── installation and activation
-│       ├── configuration and trust
-│       ├── tools, environment, and tasks
-│       └── team use, CI, security, and troubleshooting
+│   ├── mise/
+│   │   ├── concepts
+│   │   ├── installation and shell activation
+│   │   ├── configuration and precedence
+│   │   ├── trust and security
+│   │   ├── environment management
+│   │   ├── tasks
+│   │   ├── team and CI use
+│   │   └── troubleshooting and recovery
+│   ├── runtime recipes/
+│   └── CLI recipes/
 ├── part-04-technology-profiles/
 ├── part-05-engineering-practices/
 ├── part-06-infrastructure/

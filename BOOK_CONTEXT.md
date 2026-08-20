@@ -52,7 +52,7 @@ Use this order:
 | Front matter | Scope, principles, conventions, navigation |
 | I — Operating System & Development Environment | Windows, WSL2, Docker Desktop, AI environment, project layout |
 | II — IDE & Development Tools | PhpStorm, VS Code, quality UI, remote development |
-| III — Development Toolchains | `mise`, runtime ownership, tool installation, tasks, environment files |
+| III — Development Toolchains | Toolchain ownership, `mise`, runtime recipes, CLI recipes, tasks, environment files |
 | IV — Technology Profiles | WordPress, Laravel, Docker-first and remote profiles |
 | V — Engineering Practices | Git, dependencies, quality, AI, performance, security |
 | VI — Infrastructure | NGINX, Redis, MariaDB, Cloudflare, deployment platforms |

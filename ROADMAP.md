@@ -24,7 +24,7 @@ The repository content originated in Draft v0.2. The v1 structural branch now re
 
 ## v0.4 — Information architecture migration
 
-- Maintain Part III Development Toolchains and its nested `mise` Usage section.
+- Maintain Part III Development Toolchains and its nested `mise`, runtime recipe, and CLI recipe sections.
 - Keep Technology Profiles in Part IV.
 - Keep Engineering Practices in Part V.
 - Keep Infrastructure in Part VI.
