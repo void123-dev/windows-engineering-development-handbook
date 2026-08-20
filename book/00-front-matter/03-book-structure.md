@@ -19,10 +19,9 @@
 ## Part III. Development Toolchains
 
 * Toolchain ownership
-* `mise` installation and activation
-* Configuration hierarchy and trust
-* Tools, environment, and tasks
-* Team use, CI, security, and troubleshooting
+* `mise` concepts, installation, configuration, trust, environments, tasks, team use, and recovery
+* Runtime recipes
+* CLI recipes
 
 ## Part IV. Technology Profiles
 

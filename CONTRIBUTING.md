@@ -94,7 +94,17 @@ Before requesting review:
 - build every supported output or state exactly why a build was not run;
 - test changed commands in the declared environment where safe and practical.
 
-Repository automation is the authority for exact command names once those workflows are added.
+Repository automation is the authority for exact validation commands.
+
+Run the repository validation from the repository root inside WSL:
+
+```bash
+python3 scripts/validate-docs.py
+bash -n scripts/build-docx.sh
+git diff --check
+```
+
+The validator checks `SUMMARY.md`, active chapter coverage, duplicate chapter content, internal links and anchors, H1 headings, fenced code blocks, navigation titles, and LF line endings. The DOCX build consumes chapters in `SUMMARY.md` order.
 
 ## Source and licensing policy
 

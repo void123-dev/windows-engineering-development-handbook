@@ -124,7 +124,7 @@
 
 ##### JavaScript Runtime
 
-* [Node.js](http://Node.js) install \-\> Docker Image
+* [Node.js](https://nodejs.org/) install \-\> Docker Image
 
 #### ***Tools***
 
@@ -132,7 +132,7 @@
 
 * Markdown разметка (GitHub Flavored Markdown)
 
-###### [*AGENTS.md*](http://AGENTS.md)
+###### [*AGENTS.md*](../../AGENTS.md)
 
 \#\# AI Instructions
 
@@ -182,7 +182,7 @@ When making changes:
 
 ###### *MCP*
 
-###### *Project Settings (internal [AGENTS.md](http://AGENTS.md))*
+###### *Project Settings (internal [AGENTS.md](../../AGENTS.md))*
 
 Как AI должен вести себя именно внутри текущего проекта
 
@@ -232,4 +232,3 @@ When making changes:
 * AI Assistant Enable  
 * Angular \-\> Enable  
 * Gateway WSL \-\> Enable
-

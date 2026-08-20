@@ -9,8 +9,8 @@
 - [Windows Preparation](book/part-01-operating-system/01-windows-preparation.md)
 - [WSL2](book/part-01-operating-system/02-wsl2.md)
 - [Docker Desktop](book/part-01-operating-system/03-docker-desktop.md)
-- [AI Development Environment](book/part-01-operating-system/05-ai-development-environment.md)
-- [Project Layout](book/part-01-operating-system/06-project-layout.md)
+- [AI Development Environment](book/part-01-operating-system/04-ai-development-environment.md)
+- [Project Layout](book/part-01-operating-system/05-project-layout.md)
 
 ## Part II — IDE & Development Tools
 - [PhpStorm Professional Setup](book/part-02-ide-tools/01-phpstorm.md)
@@ -20,17 +20,25 @@
 
 ## Part III — Development Toolchains
 - [Development Toolchain Ownership](book/part-03-development-toolchains/01-toolchain-ownership.md)
-- `mise` Usage
-  - [Install and Activate `mise` in WSL](book/part-03-development-toolchains/02-mise-usage/01-installation-and-activation.md)
-  - [Configuration Hierarchy and Trust](book/part-03-development-toolchains/02-mise-usage/02-configuration-and-trust.md)
-  - [Tools, Environment, and Tasks](book/part-03-development-toolchains/02-mise-usage/03-tools-environment-and-tasks.md)
-  - [Team Use, CI, Security, and Troubleshooting](book/part-03-development-toolchains/02-mise-usage/04-team-ci-security-and-troubleshooting.md)
+- `mise`
+  - [`mise` Concepts](book/part-03-development-toolchains/02-mise/01-concepts.md)
+  - [Installation and Shell Activation](book/part-03-development-toolchains/02-mise/02-installation-and-shell-activation.md)
+  - [Configuration and Precedence](book/part-03-development-toolchains/02-mise/03-configuration-and-precedence.md)
+  - [Trust and Security](book/part-03-development-toolchains/02-mise/04-trust-and-security.md)
+  - [Environment Management](book/part-03-development-toolchains/02-mise/05-environment-management.md)
+  - [Tasks](book/part-03-development-toolchains/02-mise/06-tasks.md)
+  - [Team and CI Use](book/part-03-development-toolchains/02-mise/07-team-and-ci.md)
+  - [Troubleshooting and Recovery](book/part-03-development-toolchains/02-mise/08-troubleshooting-and-recovery.md)
+- Runtime Recipes
+  - [Runtime Recipe Standards](book/part-03-development-toolchains/03-runtime-recipes/01-runtime-recipe-standards.md)
+- CLI Recipes
+  - [CLI Recipe Standards](book/part-03-development-toolchains/04-cli-recipes/01-cli-recipe-standards.md)
 
 ## Part IV — Technology Profiles
 - [WordPress](book/part-04-technology-profiles/01-wordpress.md)
 - [Laravel](book/part-04-technology-profiles/02-laravel.md)
-- [Docker-first](book/part-04-technology-profiles/03-docker-first.md)
-- [Remote Development](book/part-04-technology-profiles/04-remote-development.md)
+- [Docker-first Development](book/part-04-technology-profiles/03-docker-first.md)
+- [Remote Development Profile](book/part-04-technology-profiles/04-remote-development.md)
 
 ## Part V — Engineering Practices
 - [Composer](book/part-05-engineering-practices/01-composer.md)

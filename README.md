@@ -28,11 +28,17 @@ book/
 ├── part-02-ide-tools/
 ├── part-03-development-toolchains/
 │   ├── toolchain ownership
-│   └── mise Usage/
-│       ├── installation and activation
-│       ├── configuration and trust
-│       ├── tools, environment, and tasks
-│       └── team use, CI, security, and troubleshooting
+│   ├── mise/
+│   │   ├── concepts
+│   │   ├── installation and shell activation
+│   │   ├── configuration and precedence
+│   │   ├── trust and security
+│   │   ├── environment management
+│   │   ├── tasks
+│   │   ├── team and CI use
+│   │   └── troubleshooting and recovery
+│   ├── runtime recipes/
+│   └── CLI recipes/
 ├── part-04-technology-profiles/
 ├── part-05-engineering-practices/
 ├── part-06-infrastructure/
@@ -83,6 +89,12 @@ Typical workflow:
 5. Open a pull request with scope, validation evidence, and migration notes.
 
 The detailed repository migration sequence is in [REFACTORING_PLAN_V1.md](REFACTORING_PLAN_V1.md).
+
+Validate the documentation from the repository root inside WSL:
+
+```bash
+python3 scripts/validate-docs.py
+```
 
 ## Build outputs
 
