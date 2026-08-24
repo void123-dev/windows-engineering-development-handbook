@@ -32,4 +32,6 @@ if [[ ! -f "$PDF_FILE" ]]; then
   exit 1
 fi
 
+python3 "$ROOT_DIR/scripts/validate-print.py" "$PDF_FILE"
+
 echo "Created: $PDF_FILE"
