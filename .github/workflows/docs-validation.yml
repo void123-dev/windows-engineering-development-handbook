@@ -20,4 +20,25 @@ jobs:
         run: python3 scripts/validate-docs.py
 
       - name: Check shell script syntax
-        run: bash -n scripts/build-docx.sh
+        run: bash -n scripts/build-docx.sh scripts/build-pdf.sh
+
+  print-preview:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Install print build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends \
+            fonts-liberation \
+            libreoffice-writer \
+            pandoc
+
+      - name: Install print validation dependency
+        run: python3 -m pip install -r requirements-print.txt
+
+      - name: Build and validate print preview
+        run: ./scripts/build-pdf.sh
